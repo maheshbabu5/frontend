@@ -1,0 +1,130 @@
+#dot-cont {
+
+    display: flex;
+}
+
+.border {
+
+    position: relative;
+    left: 200%;
+}
+
+h1 {
+    color: rgb(0, 0, 128);
+    text-align: justify;
+}
+
+h1::first-letter {
+    color: rgb(197, 27, 160);
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#head {
+
+    display: flex;
+    position: relative;
+    left: 31%;
+    margin-bottom: 2%;
+}
+
+#cam {
+    position: absolute;
+    top: 37%;
+    left: 43%;
+}
+
+
+#likeimg,
+#like,
+.author,
+.opac {
+    margin: 5px;
+    font-weight: bolder;
+    color: black;
+    text-transform: capitalize;
+}
+
+#dot {
+    position: absolute;
+    top: 4%;
+    left: 90%;
+}
+
+#date-cont {
+    display: flex;
+    margin-top: 4px;
+    padding-top: 2px;
+
+}
+
+#imgd {
+    padding-left: 10px;
+    margin: 4px;
+
+
+}
+
+#des {
+    margin-left: 3%;
+    padding-left: 2%;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+#date {
+    position: absolute;
+    left: 70%;
+    top: 80%;
+}
+
+#card {
+    position: relative;
+    display: block;
+    margin-left: 30%;
+    width: 600px;
+    height: 600px;
+
+    box-shadow: 0 5px 10px black;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+#img1 {
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+#home {
+    display: flex;
+    position: relative;
+}
+
+#green {
+
+    color: green;
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+#btn {
+    margin-top: 5%;
+    position: absolute;
+    top: 38%;
+    left: 60%;
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10%;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
